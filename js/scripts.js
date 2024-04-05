@@ -53,3 +53,40 @@ function writeMessage(name, material, size, note) {
 }
 
 writeMessage("Celia", "zapatos", 39, "Gracias por su compra.");
+
+function calculateAverage(numberA, numberB, numberC) {
+  const average = (numberA + numberB + numberC) / 3;
+  return average;
+}
+
+const average = calculateAverage(8, 6, 4);
+console.log(average);
+
+function calculateDiscount(price, dis) {
+  const discount = price - (price * dis) / 100;
+  return discount;
+}
+
+const discount = calculateDiscount(15, 25);
+console.log(discount);
+
+function twoWords(word1, word2) {
+  const words = word1 + "-" + word2;
+  return words;
+}
+const words = twoWords("Jiménez", "Castro");
+console.log(words);
+
+function calculateMeters(km) {
+  const meters = km * 100;
+  return meters;
+}
+const meters = calculateMeters(12);
+console.log(meters);
+
+function calculateSeconds(h) {
+  const seconds = h * 3600;
+  return seconds;
+}
+const seconds = calculateSeconds(4);
+console.log(seconds);
